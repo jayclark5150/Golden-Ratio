@@ -7,7 +7,7 @@ A simple iOS Shortcut designed to calculate brewing ratios for coffee. It allows
 - Dual Input Modes: Calculate based on either grams of coffee or milliliters of water.
 - Precision Ratios:
     - Uses a 1:15 ratio when calculating from coffee weight (Grams x 15).
-    - Uses a 1:16 ratio when calculating from water volume (Milliliters / 16).
+    - Uses a 1:15 ratio when calculating from water volume (Milliliters / 15).
 - Fast Output: Displays the calculation result instantly via system alerts.
 
 ## Installation
@@ -27,7 +27,7 @@ The shortcut utilizes a Choose from Menu action with two distinct paths:
 
 2. Milliliters of Water
     - Prompts for numerical input (milliliters of water).
-    - Divides the input by 16.
+    - Divides the input by 15.
     - Shows the result for the target coffee weight.
 
 ## Requirements
